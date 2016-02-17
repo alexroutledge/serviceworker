@@ -1,0 +1,26 @@
+{
+  "name": "serviceworker",
+  "version": "1.0.0",
+  "description": "Web Component wrapper for service worker's proposed declarative syntax.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexroutledge/serviceworker.git"
+  },
+  "keywords": [
+    "web",
+    "components",
+    "service",
+    "worker",
+    "serviceworker"
+  ],
+  "author": "Alex Routledge <alex.routledge@gmail.com> (https://alexroutledge.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexroutledge/serviceworker/issues"
+  },
+  "homepage": "https://github.com/alexroutledge/serviceworker#readme"
+}
