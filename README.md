@@ -1,4 +1,4 @@
-# &lt;link rel="service-worker" href scope/&gt;
+# &lt;link is="service-worker" rel="service-worker" href scope/&gt;
 
 Web Component wrapper for service worker's proposed declarative syntax.
 
