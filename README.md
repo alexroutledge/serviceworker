@@ -29,7 +29,7 @@ Web Component wrapper for service worker's proposed declarative syntax.
             }),
             extends: 'link'
   	  });
-        </script>
+    </script>
 	```
 
 2. Start using it!
