@@ -15,7 +15,6 @@ Web Component wrapper for service worker's proposed declarative syntax.
 	```html
 	<script>
 	  document.registerElement('service-worker', {
-<<<<<<< HEAD
     	    prototype: Object.create(
       	      HTMLLinkElement.prototype, {
                 createdCallback: {
@@ -34,21 +33,6 @@ Web Component wrapper for service worker's proposed declarative syntax.
                 }
             }),
             extends: 'link'
-=======
-    	prototype: Object.create(
-      	  HTMLLinkElement.prototype, {
-            createdCallback: {
-              value: function() {
-                if ('serviceWorker' in navigator) {
-                  navigator.serviceWorker.register(this.getAttribute('href'), {
-                    scope: this.getAttribute('scope')
-                  });
-                }
-              }
-            }
-        }),
-        extends: 'link'
->>>>>>> 8a98a59951384bd097c26d5d8e203365c211042d
   	  });
     </script>
 	```
