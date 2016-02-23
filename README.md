@@ -20,16 +20,21 @@ Web Component wrapper for service worker's proposed declarative syntax.
                 createdCallback: {
                   value: function() {
                     if ('serviceWorker' in navigator) {
-                      navigator.serviceWorker.register(this.getAttribute('href'), {
-                        scope: this.getAttribute('scope')
-                    });
+                      var args = [];
+					  args.push(this.getAttribute('href'));
+					  if (this.getAttribute('scope')) {
+						args.push({
+						  scope: this.getAttribute('scope')
+						});
+					  }
+					  navigator.serviceWorker.register.apply(navigator.serviceWorker, args);
+                    }
                   }
                 }
-              }
             }),
             extends: 'link'
   	  });
-        </script>
+    </script>
 	```
 
 2. Start using it!
