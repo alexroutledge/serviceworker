@@ -15,7 +15,8 @@
     "components",
     "service",
     "worker",
-    "serviceworker"
+    "serviceworker",
+    "javascript"
   ],
   "author": "Alex Routledge <alex.routledge@gmail.com> (https://alexroutledge.github.io)",
   "license": "ISC",
